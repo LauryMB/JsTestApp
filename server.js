@@ -23,6 +23,8 @@ var helloWorldFunc = function (req, res) {
         res.write('Vous êtes à l\'accueil, que puis-je pour vous ?');
     else if (page == '/sous-sol')
         res.write('Vous êtes dans la cave à vins, ces bouteilles sont à moi !');
+    else if (page == '/salon')
+        res.write('assied toi et detend toi, tiens des chips :)');
     else if (page == '/etage/1/chambre')
         res.write('Hé ho, c\'est privé ici !');
     else if (page == '/etage/1/WC')
