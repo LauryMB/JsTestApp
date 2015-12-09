@@ -1,0 +1,10 @@
+{
+  "name": "FirstNodeJSApp",
+  "version": "0.0.0",
+  "description": "FirstNodeJSApp",
+  "main": "server.js",
+  "author": {
+    "name": "Administrator",
+    "email": ""
+  }
+}
