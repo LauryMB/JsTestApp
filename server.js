@@ -25,6 +25,8 @@ var helloWorldFunc = function (req, res) {
         res.write('Vous êtes dans la cave à vins, ces bouteilles sont à moi !');
     else if (page == '/etage/1/chambre')
         res.write('Hé ho, c\'est privé ici !');
+    else if (page == '/etage/1/WC')
+        res.write('Tire bien la chasse hein!');
     else
         res.write('Vous vous etes perdu non ? un peu d\'aide ?');
     res.end();
